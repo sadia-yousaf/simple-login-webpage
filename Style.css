@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(tree-sunlight-background-relaxation-wallpaper.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.logo{
+    color: orangered;
+    font-weight: 600;
+    font-size: 50px;
+    font-family: Arial;
+    margin: 20px;
+}
+.menu{
+    margin: auto;
+}
+.menu ul{
+    color: white;
+    font-size: 15px;
+    font-family: Arial;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.menu ul li{
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+    gap: 10%;
+    justify-content: space-between;
+    margin: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.menu ul li:hover{
+    color: orangered;
+    text-decoration: underline;
+}
+.navbar{
+    display: flex;
+}
+@media(min-width:750){
+   .menu ul li{
+        margin: 10px;
+        gap: 5%;
+    }
+    .menu ul{
+        font-size: 10px;
+    }
+}
+.search{
+    margin: 32px;
+   
+}
+.search .srch{
+    padding: 10px;
+    outline: none;
+    border: none;
+     background-color: transparent; 
+    border-top: 2px solid orangered;
+    border-bottom: 2px solid orangered;
+    border-left: 2px solid orangered;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    color: white;
+    margin-left: 10px;
+}
+.search .btn{
+    padding: 13px;
+    outline:none;
+    border: none;
+    background-color: orangered;
+    margin: 0;
+    border-radius: 4px;
+    color: white;
+}
+.content{
+    color: white;
+    font-size: 20px;
+    font-family: 'Arial';
+    margin: 40px;
+}
+.content span{
+    color: orangered;
+}
+.content h1{
+    font-weight: bold;
+}
+.content .par{
+    margin-top: 15px;
+}
+.content .cn{
+    padding: 10px;
+    background-color: orangered;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    margin: 15px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.content .cn:hover{
+    background-color: white;
+}
+.form{
+   background-color: rgb(37, 36, 36);
+   text-align: center;
+   border: 2px solid rgb(5, 5, 5);
+   border-radius: 10px;
+   width: 300px;
+   margin: auto;
+   padding: 25px;
+   color: white;
+   position: relative;
+   top: 90px;
+}
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
+    font-size: 17px;
+    font-weight: 500;
+    padding-top: 20px;
+    text-align: center;
+}
+.form .link a{
+    text-decoration: none;
+    color: #ff7200;
+}
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.icons{
+    color: white;
+   font-size: 20px;
+    padding-left: 14px;
+    padding-top: 5px;
+
+}
+.Login{
+    width: 220px;
+    background-color: white;
+    font-family:sans-serif ;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(255, 208, 0);
+    padding: 8px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    position: relative;
+    left: 28px;
+}
+.email{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid orangered;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 15px;
+    font-family: sans-serif;
+}
+.form .email:focus{
+outline: none;
+}
+
+::placeholder{
+    color: white;
+    font-family: Arial;
+}
+.form .btnn{
+    height: 40px;
+    background-color: orangered;
+    width: 240px;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    margin-top: 15px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.btnn:hover{
+    background: white;
+    color: orangered;
+}
+.btnn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.bto .here{
+    height: 40px;
+    background-color: orangered;
+    width: 240px;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    border-radius: 5px black;
+    transition: 0.5s;
+    cursor: pointer;
+    position: relative;
+    left: 550px;
+}
+.bto{
+    margin: auto;
+}
+.here:hover{
+    background: white;
+    color: orangered;
+}
+.form .fa-regular{
+    float: right;
+    color: black;
+    position: relative;
+    top: -9px;
+    width: ;
+}
